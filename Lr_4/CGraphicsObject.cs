@@ -7,14 +7,14 @@ using System.Drawing;
 
 namespace Lr_4
 {
-    public abstract class CGraphicsObject
+    public abstract class CGraphicsObject : ICGraphicsObject
     {
 
         public Point this[int i]
         {
             get { return points[i]; }
         }
-        
+
         public virtual string Show()
         {
             string information =
@@ -47,7 +47,7 @@ namespace Lr_4
 
         }
 
-        
+
 
         public Point[] points { get; protected set; }
         public Point location { get; set; }

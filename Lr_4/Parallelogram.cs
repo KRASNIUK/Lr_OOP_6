@@ -7,7 +7,7 @@ using System.Drawing;
 
 namespace Lr_4
 {
-    public class Parallelogram : CGraphicsObject
+    public class Parallelogram : CGraphicsObject, IParallelogram
     {
         public Parallelogram(Point location, int leftSyte, int downSyte, int h)
         {
@@ -17,7 +17,7 @@ namespace Lr_4
             this.h = h;
 
             S = downSyte * h;
-            
+
             int x = location.X;
             int y = location.Y;
             Point P1 = location;
@@ -42,8 +42,8 @@ namespace Lr_4
                 $"\nh = {h}" +
                 $"\nS = {S}";
 
-            
-        
+
+
             return information;
         }
 
@@ -74,7 +74,8 @@ namespace Lr_4
         public static bool Equals(Parallelogram member1, Parallelogram member2)
         {
             bool answer = false;
-            if (member1 == member2) {
+            if (member1 == member2)
+            {
                 if (member1.points == member2.points)
                 {
                     answer = true;
