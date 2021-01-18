@@ -1,22 +1,23 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <ClassDiagram MajorVersion="1" MinorVersion="1">
   <Class Name="Lr_4.CGraphicsObject">
-    <Position X="3" Y="2" Width="1.5" />
+    <Position X="4.75" Y="0.75" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAAAACAAAAAAAAACAAAAAACAAAEAAAAAAAAAAAAAAA=</HashCode>
+      <HashCode>AAAABBCAEAAAAAAACAAgAAACAAAEAAAAAAAAAAAAAAA=</HashCode>
       <FileName>CGraphicsObject.cs</FileName>
     </TypeIdentifier>
     <Lollipop Position="0.2" />
   </Class>
   <Class Name="Lr_4.Trapezoid">
-    <Position X="4.5" Y="4.5" Width="2" />
+    <Position X="5.25" Y="4.75" Width="2" />
     <TypeIdentifier>
       <HashCode>AIAAAAgAAAAAAAAAgACAAAAAAAAEAAAARAAAAACAAiA=</HashCode>
       <FileName>Trapezoid.cs</FileName>
     </TypeIdentifier>
+    <Lollipop Position="0.2" />
   </Class>
   <Class Name="Lr_4.Parallelogram">
-    <Position X="1.25" Y="4.5" Width="2" />
+    <Position X="3" Y="4.75" Width="2" />
     <TypeIdentifier>
       <HashCode>AAAAAIAAAAAAAAAAgACAAAAAAAAEAAAAQAAAAACAAiA=</HashCode>
       <FileName>Parallelogram.cs</FileName>
@@ -24,31 +25,38 @@
     <Lollipop Position="0.2" />
   </Class>
   <Class Name="Lr_4.Form1">
-    <Position X="7" Y="2" Width="2.75" />
+    <Position X="10.25" Y="1.5" Width="2.75" />
     <TypeIdentifier>
-      <HashCode>AAAAACABAiAAAAAAAACAAAACAQAIAAACAAEAAABAAAA=</HashCode>
+      <HashCode>AAAAACIBAiAAAAAAAACAAAACAQAJAAACAAEAAABAAAA=</HashCode>
       <FileName>Form1.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Interface Name="Lr_4.IParallelogram">
-    <Position X="0.75" Y="3" Width="1.5" />
+    <Position X="1.25" Y="4.75" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <HashCode>AAAAAIAAAAAAAAAAAACAAAAAAAAAAAAAQAAAAACAAAA=</HashCode>
       <FileName>IParallelogram.cs</FileName>
     </TypeIdentifier>
   </Interface>
   <Interface Name="Lr_4.ITrapezoid">
-    <Position X="5.25" Y="2.75" Width="1.5" />
+    <Position X="7.5" Y="4.75" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <HashCode>AIAAAAgAAAAAAAAAAACAAAAAAAAAAAAARAAAAACAAAA=</HashCode>
       <FileName>ITrapezoid.cs</FileName>
     </TypeIdentifier>
   </Interface>
   <Interface Name="Lr_4.ICGraphicsObject">
-    <Position X="4.75" Y="0.5" Width="1.5" />
+    <Position X="3" Y="0.75" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAACAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA=</HashCode>
       <FileName>ICGraphicsObject.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Lr_4.ISomethingCode">
+    <Position X="6.5" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAABBAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ISomethingCode.cs</FileName>
     </TypeIdentifier>
   </Interface>
   <Font Name="Segoe UI" Size="9" />

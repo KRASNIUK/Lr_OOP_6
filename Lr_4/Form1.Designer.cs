@@ -31,6 +31,8 @@
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.buttonNextFigure = new System.Windows.Forms.Button();
             this.buttonInformation1 = new System.Windows.Forms.Button();
+            this.buttonRunCode = new System.Windows.Forms.Button();
+            this.buttonAddCode = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -66,12 +68,36 @@
             this.buttonInformation1.UseVisualStyleBackColor = true;
             this.buttonInformation1.Click += new System.EventHandler(this.buttonInformation_Click);
             // 
+            // buttonRunCode
+            // 
+            this.buttonRunCode.Font = new System.Drawing.Font("Kristen ITC", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.buttonRunCode.Location = new System.Drawing.Point(556, 105);
+            this.buttonRunCode.Name = "buttonRunCode";
+            this.buttonRunCode.Size = new System.Drawing.Size(104, 177);
+            this.buttonRunCode.TabIndex = 4;
+            this.buttonRunCode.Text = "Run something code";
+            this.buttonRunCode.UseVisualStyleBackColor = true;
+            this.buttonRunCode.Click += new System.EventHandler(this.buttonRunCode_Click);
+            // 
+            // buttonAddCode
+            // 
+            this.buttonAddCode.Font = new System.Drawing.Font("Kristen ITC", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.buttonAddCode.Location = new System.Drawing.Point(556, 288);
+            this.buttonAddCode.Name = "buttonAddCode";
+            this.buttonAddCode.Size = new System.Drawing.Size(104, 87);
+            this.buttonAddCode.TabIndex = 5;
+            this.buttonAddCode.Text = "Add something code";
+            this.buttonAddCode.UseVisualStyleBackColor = true;
+            this.buttonAddCode.Click += new System.EventHandler(this.buttonAddCode_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoValidate = System.Windows.Forms.AutoValidate.EnablePreventFocusChange;
-            this.ClientSize = new System.Drawing.Size(565, 433);
+            this.ClientSize = new System.Drawing.Size(695, 433);
+            this.Controls.Add(this.buttonAddCode);
+            this.Controls.Add(this.buttonRunCode);
             this.Controls.Add(this.buttonInformation1);
             this.Controls.Add(this.buttonNextFigure);
             this.Controls.Add(this.pictureBox1);
@@ -89,6 +115,8 @@
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.Button buttonNextFigure;
         private System.Windows.Forms.Button buttonInformation1;
+        private System.Windows.Forms.Button buttonRunCode;
+        private System.Windows.Forms.Button buttonAddCode;
     }
 }
 

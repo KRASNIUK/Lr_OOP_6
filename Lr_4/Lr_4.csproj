@@ -49,6 +49,7 @@
   <ItemGroup>
     <Compile Include="ICGraphicsObject.cs" />
     <Compile Include="IParallelogram.cs" />
+    <Compile Include="ISomethingCode.cs" />
     <Compile Include="ITrapezoid.cs" />
     <Compile Include="Parallelogram.cs" />
     <Compile Include="CGraphicsObject.cs" />

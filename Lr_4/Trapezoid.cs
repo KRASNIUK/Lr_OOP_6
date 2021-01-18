@@ -6,7 +6,7 @@ using System.Drawing;
 
 namespace Lr_4
 {
-    public class Trapezoid : CGraphicsObject
+    public class Trapezoid : CGraphicsObject, ITrapezoid
     {
         public Trapezoid(Point location, int downBase, int rightSyte, int leftSyte, int h)
         {

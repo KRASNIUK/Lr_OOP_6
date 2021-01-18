@@ -78,6 +78,21 @@ namespace Lr_4
 
         }
 
+        private void buttonRunCode_Click(object sender, EventArgs e)
+        {
+            ((ISomethingCode)figures[Counter]).RunCode();
+        }
+
+        private void buttonAddCode_Click(object sender, EventArgs e)
+        {
+            ((ISomethingCode)figures[Counter]).AddSomethingCode(actionMessage);
+
+        }
+        void actionMessage()
+        {
+            MessageBox.Show("");
+        }
+
         int Counter;
         ArrayList figures;
 

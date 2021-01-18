@@ -7,8 +7,12 @@ using System.Drawing;
 
 namespace Lr_4
 {
-    public abstract class CGraphicsObject : ICGraphicsObject
+    public delegate void SomethingCodeHandler();
+
+    public abstract class CGraphicsObject : ICGraphicsObject, ISomethingCode
     {
+
+        protected SomethingCodeHandler Code;
 
         public Point this[int i]
         {
@@ -47,6 +51,20 @@ namespace Lr_4
 
         }
 
+        public void AddSomethingCode(SomethingCodeHandler somethingCode)
+        {
+            Code += somethingCode;
+        }
+
+        public void DelSomethingCode(SomethingCodeHandler somethingCode)
+        {
+            Code -= somethingCode;
+        }
+
+        public void RunCode()
+        {
+            Code?.Invoke();
+        }
 
 
         public Point[] points { get; protected set; }
