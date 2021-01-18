@@ -25,9 +25,9 @@
     <Lollipop Position="0.2" />
   </Class>
   <Class Name="Lr_4.Form1">
-    <Position X="10.25" Y="1.5" Width="2.75" />
+    <Position X="10" Y="1.5" Width="2.75" />
     <TypeIdentifier>
-      <HashCode>AAAAACIBAiAAAAAAAACAAAACAQAJAAACAAEAAABAAAA=</HashCode>
+      <HashCode>AAEAACIBAiAAAAAgAACAAAACAQAJAAACAAGAAABAAAA=</HashCode>
       <FileName>Form1.cs</FileName>
     </TypeIdentifier>
   </Class>
